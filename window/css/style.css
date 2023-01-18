@@ -1,0 +1,38 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main{
+  height: 100vh;
+}
+.wrapper-container{
+  display: flex;
+  height: 100%;
+}
+.left-side-bar{
+  flex: 0.1;
+  border-right: 0.7px solid lightgray;
+}
+.logo-container{
+  padding:5px;
+}
+.menu-item{
+  padding: 5px 10px 10px 10px;
+  cursor: pointer;
+}
+.right-side-bar{
+  flex:0.7
+}
+.text-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image{
+  height: 60px;
+  width: auto;
+}
+
